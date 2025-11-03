@@ -7,3 +7,28 @@ body {
   font-size: 16px;
   color: #33333;
   text-align: left;
+}
+h1 {
+font-size: 36px;
+color: #1a1a1a;
+text-align: center;
+}
+h2 {
+font-size: 28px;
+color: #2c3e50;
+text-align: center;
+}
+h3 {
+font-size: 24px;
+color: #34495e;
+text-align: left;
+}
+h4 {
+font-size: 20px;
+color: #555555;
+}
+p {
+font-size: 14px;
+color: #444444;
+text-align: justify;
+}
