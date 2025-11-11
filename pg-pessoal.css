@@ -8,6 +8,7 @@
   .foto-perfil {
     width: 200px;
     height: auto;
+    border: 2px solid #61AFEF;
   }
 
   .container-foto {
@@ -18,57 +19,137 @@ body {
   font-size: 16px;
   color: #333333;
   text-align: left;
+  background-color: #282C34;
+  border: 30px groove #61AFEF;
+
+#title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 }
 h1 {
 font-size: 36px;
-color: #1a1a1a;
+color: #ABB2BF;
 text-align: center;
 }
 h2 {
 font-size: 28px;
-color: #2c3e50;
+color: #ABB2BF;
 text-align: center;
+margin-top: -40px;
 }
+#nome {
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+   color: #ABB2BF;
+}
+
+#visao-geral {
+  margin-top: 100px;
+  color: #ABB2BF;
+}
+
 h3 {
 font-size: 24px;
-color: #34495e;
-text-align: left;
+color: #ABB2BF;
+text-align: center;
+margin-top: 70px;
+margin-bottom: 70px;
+font-size: 30px;
+text-decoration: underline;
 }
 h4 {
 font-size: 20px;
-color: #555555;
+color: #ABB2BF;
 }
 h5 {
 font-size: 18px;
-color: #666666;
+color: #ABB2BF;
 }
 
 p {
 font-size: 14px;
-color: #444444;
-text-align: justify;
+color: #ABB2BF;
+text-align: center;
 }
 div {
 text-align: left;
 }
 span {
-color: #0066cc;
+color: #ABB2BF;
 font-size: 14px;
 }
 
 .destaque {
-  color: #e74c3c;
+color: #e74c3c;
 font-size: 16px;
 }
 .link-social {
-  color: #e74c3c;
+  color: rgb(124, 153, 225);
 font-size: 16px;
+font-family: monospace ;
+
+}
+#linkedin {
+  font-family: Arial, monospace;
+  font-size: 22px;
+  font-style: italic;
+}
+#github {
+  font-family: Arial, monospace;
+  font-size: 22px;
+  font-style: italic;
 }
 .secao {
-  text-align: center;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
 }
 
 .tecnologia {
-color: #8e44ad;
+color: #ABB2BF;
 font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.informacoes {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ABB2BF;
+}
+.redes {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: #8e44ad;
+margin-top: 50px;
+text-decoration: underline;
+}
+.monospace {
+  font-family: monospace;
+  font-size: 16px;
+  color: rgb(142, 178, 217);
+  font-weight: 700;
+  font-style: italic;
+}
+
+.monospace2 {
+font-family: monospace;
+font-size: 18px;
+width: 60%;
+margin: 30px auto;
+color: rgb(142, 178, 217);
+font-weight: 700;
+font-style: italic;
+}
+
+.monospace3 {
+font-family: monospace;
+font-size: 15px;
+color: rgb(142, 178, 217);
+font-weight: 700;
+font-style: italic;
 }
